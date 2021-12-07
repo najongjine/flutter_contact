@@ -13,9 +13,15 @@ class MyApp extends StatelessWidget {
     
     /* 실제 코딩하는곳 */
     return MaterialApp(
-      home:Center(
-        child:Container(width:50,height: 50,color: Colors.blue)
-      )
+        home: Scaffold(
+          body: Column(
+            children: [
+              Icon(Icons.star),
+              Icon(Icons.star),
+              Icon(Icons.star),
+            ],
+          )
+        )
     );
 
   }
